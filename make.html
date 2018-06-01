@@ -80,6 +80,21 @@
 
             </div>
         </div>
+        <div class="row ">
+            <div class="jumbotron text-center col-md-12">
+        
+                <h4> control panel only viewable for administator</h4>
+                <a href="/api/tables">
+                    <span class="fa fa-th-list"></span> View API Reserved Table</a>
+                <a href="/api/waitlist">
+                    <span class="fa fa-th-list"></span> View API Waiting List</a>
+                <form method="post" action="http://localhost:8080/api/clear">
+                    <button type="submit" class="btn btn-md" id="clear">
+                        <span class="fa fa-trash"></span> Clear Table</button>
+                </form>
+        
+            </div>
+        </div>
     </div>
     </div>
 

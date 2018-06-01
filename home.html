@@ -23,6 +23,7 @@
       <hr>
       <a href="/make"><button class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-credit-card"></span> Reserve Table</button></a>
       <a href="/view"><button class="btn btn-primary btn-lg"><span class="fa fa-th-list"></span> View Tables</button></a>
+
     </div>
     </div>
     <div class="row ">
@@ -31,6 +32,9 @@
       <h4> control panel only viewable for administator</h4>
       <a href="/api/tables"><span class="fa fa-th-list"></span> View API Reserved Table</a>
       <a href="/api/waitlist"><span class="fa fa-th-list"></span> View API Waiting List</a>
+      <form method="post" action="http://localhost:8080/api/clear">
+      <button type="submit" class="btn btn-md" id="clear"> <span class="fa fa-trash"></span> Clear Table</button>
+      </form>
 
      </div>
     </div>
