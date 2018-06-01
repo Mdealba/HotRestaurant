@@ -72,14 +72,13 @@ app.post("/api/waitlist", function(req, res) {
     console.log("adding to waiting list", table);
     waitingList.push(table);
 
-
   res.json(table);
 });
 
 app.post("/api/clear", function(req, res) {
   waitingList = [];
   tables = [];
-  res.json(false);
+  // res.json(false);
 });
 
 app.listen(PORT, function() {
