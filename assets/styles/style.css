@@ -1,0 +1,10 @@
+h3 {
+    color:brown;
+}
+body {
+    background-color: black;
+    background-image: url(../images/bg.jpg);
+}
+.jumbotron{
+    background-color: rgba(255, 255, 255, 0.851);
+}
